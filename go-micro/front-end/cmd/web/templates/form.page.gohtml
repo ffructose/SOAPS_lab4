@@ -1,0 +1,9 @@
+{{define "title"}}Форма{{end}}
+
+{{define "content"}}
+<h2>Скільки у вас песів</h2>
+<form action="/submit" method="POST">
+    <input type="text" name="pes_amount" placeholder="введіть кількість песів">
+    <button type="submit">Відправити</button>
+</form>
+{{end}}
