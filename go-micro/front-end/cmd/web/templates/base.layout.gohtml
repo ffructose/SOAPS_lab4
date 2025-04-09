@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>{{block "title" .}}Головна{{end}}</title>
+</head>
+<body>
+    {{template "header" .}}
+    {{block "content" .}}{{end}}
+    {{template "footer" .}}
+</body>
+</html>
